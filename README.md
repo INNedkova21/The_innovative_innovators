@@ -7,7 +7,7 @@
 
 
 ## <img align="center" src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Settings-icon.png" width="30"> Installing
-To install our project you need to clone it. This can be done by:
+You can install our project by using this link:
 ```
    https://github.com/INNedkova21/The_innovative_innovators.git
 ```
