@@ -36,5 +36,6 @@ You can install our project by using this link:
 - <img src="https://findicons.com/files/icons/2795/office_2013_hd/2000/word.png" width="20">  Word
 - <img src="https://findicons.com/files/icons/2795/office_2013_hd/2000/excel.png" width="20">  Excel
 - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="20">  Figma
+- <img src="https://www.mrlockehmms.com/uploads/2/6/0/5/26055119/published/piskel-logo_2.png" width="20">  Piskel
 
 
