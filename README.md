@@ -1,4 +1,4 @@
-Иновативните иноватори
+<div align="center"><img src="/Images/logo.png" width=35%> </div>
 
 ## <img align="center" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-help-about-icon.png" width="30"> About
 
