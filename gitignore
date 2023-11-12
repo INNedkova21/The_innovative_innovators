@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,c++
-=======
-# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudio
->>>>>>> 6da1b6f803b3191bdafa01549344f2477b2426b1
 
 ### C++ ###
 # Prerequisites
@@ -33,10 +28,7 @@
 *.lai
 *.la
 *.a
-<<<<<<< HEAD
 *.lib
-=======
->>>>>>> 6da1b6f803b3191bdafa01549344f2477b2426b1
 
 # Executables
 *.exe
@@ -442,8 +434,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-<<<<<<< HEAD
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++
-=======
-# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudio
->>>>>>> 6da1b6f803b3191bdafa01549344f2477b2426b1
