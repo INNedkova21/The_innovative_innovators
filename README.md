@@ -8,10 +8,15 @@
 </div>
 
 ## <img align="center" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-help-about-icon.png" width="30"> About
-
+<p>
+   The idea of our game is to educate the player on both biology and chemistry. The cell and viruses help to learn the cells in the human body and the questions help to learn the chemical elements.
+</p>
 
 ## <img align="center" src="https://cdn-icons-png.flaticon.com/512/3708/3708519.png" width="30"> Demo of our project
-
+<div align = "center">
+  <img src="Images/demo1.png" width=1000px>
+  <img src="Images/demo3.png" width=1000px>
+</div>
 
 ## <img align="center" src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Settings-icon.png" width="30"> Installing
 You can install our project by using this link:
@@ -36,6 +41,7 @@ You can install our project by using this link:
 
 ## <img align="center" src="https://icon-library.com/images/it-icon-png/it-icon-png-6.jpg" width="30"> Used technologies:
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png" width="20">  C++
+- <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" width="20"> C
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/2060px-Visual_Studio_Icon_2019.svg.png" width="20">  Visual studio
 - <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20">  Git Hub
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png" width="20">  Git
