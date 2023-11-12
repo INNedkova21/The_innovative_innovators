@@ -16,7 +16,3 @@ void startGame() // Start Game Function
         DrawCircleV(charPos, 40, BLUE);
     }
 }
-void spawnEnemy() // Spawn Enemy Function
-{
-    DrawCircleV(enemyPos, 40, RED);
-}

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 #include "Textures.h"
-#include "mMenu.h"
+#include "game.h"
 #include "char.h"
 #include <ctime>
 
@@ -13,7 +13,6 @@ int main()
     Character c;
     float screenWidth = 1920;
     float screenHeight = 1080;
-
     clock_t start;
     float duration;
     start = clock();
@@ -28,7 +27,6 @@ int main()
         BeginDrawing();
         startGame();
         cMovement(c);
-        spawnEnemy();
 
         if (enemyPos.x > charPos.x) enemyPos.x -= 1.5;
         else if (enemyPos.x < charPos.x) enemyPos.x += 1.5;
