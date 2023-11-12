@@ -1,4 +1,11 @@
 <div align="center"><img src="/Images/logo.png" width=35%> </div>
+<div>
+<img src = "https://img.shields.io/github/contributors-anon/INNedkova21/The_innovative_innovators?style=for-the-badge">
+<img src = "https://img.shields.io/github/languages/count/INNedkova21/The_innovative_innovators?style=for-the-badge">
+<img src = "https://img.shields.io/github/languages/top/INNedkova21/The_innovative_innovators?style=for-the-badge&color=yellow">
+<img src = "https://img.shields.io/github/repo-size/INNedkova21/The_innovative_innovators?style=for-the-badge&color=orange">
+<img src = "https://img.shields.io/github/stars/INNedkova21/The_innovative_innovators?style=for-the-badge&color=23FF7F7F">
+</div>
 
 ## <img align="center" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-help-about-icon.png" width="30"> About
 
