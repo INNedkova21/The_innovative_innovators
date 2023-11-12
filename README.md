@@ -1,5 +1,5 @@
 <div align="center"><img src="/Images/logo.png" width=35%> </div>
-<div>
+<div align="center">
 <img src = "https://img.shields.io/github/contributors-anon/INNedkova21/The_innovative_innovators?style=for-the-badge">
 <img src = "https://img.shields.io/github/languages/count/INNedkova21/The_innovative_innovators?style=for-the-badge">
 <img src = "https://img.shields.io/github/languages/top/INNedkova21/The_innovative_innovators?style=for-the-badge&color=yellow">
