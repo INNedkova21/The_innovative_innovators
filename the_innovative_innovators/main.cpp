@@ -379,3 +379,73 @@ int main()
             DrawText(TextFormat("EXP: %.0f/100", c.exp), screenWidth / 4, 30, 30, WHITE);
             EndDrawing();
         }
+        if (gameState == 2) // options menu loop
+        {
+            if (IsKeyPressed(KEY_DOWN))
+            {
+                if (selectorPos.y < 550)
+                {
+                    currentBtn1 = buttonUnselected;
+                    while (selectorPos.y < 550)
+                    {
+                        selectorPos.y += 5;
+                        optionsMenu();
+                    }
+                    currentBtn2 = buttonSelected;
+                }
+                else if (selectorPos.y < 750) {
+                    currentBtn2 = buttonUnselected;
+                    while (selectorPos.y < 750)
+                    {
+                        selectorPos.y += 5;
+                        optionsMenu();
+                    }
+                    currentBtn3 = buttonSelected;
+                }
+            }
+            if (IsKeyPressed(KEY_UP))
+            {
+                if (selectorPos.y > 550)
+                {
+                    currentBtn3 = buttonUnselected;
+                    while (selectorPos.y > 550)
+                    {
+                        selectorPos.y -= 5;
+                        optionsMenu();
+                    }
+                    currentBtn2 = buttonSelected;
+                }
+                else if (selectorPos.y > 350) {
+                    currentBtn2 = buttonUnselected;
+                    while (selectorPos.y > 350)
+                    {
+                        selectorPos.y -= 5;
+                        optionsMenu();
+                    }
+                    currentBtn1 = buttonSelected;
+                }
+            }
+        }
+        if (IsKeyPressed(KEY_ENTER) && gameState == 2) // options menu funtions
+        {
+            if (selectorPos.y < 500) ToggleFullscreen();
+            else if (selectorPos.y < 650) OpenURL("https://github.com/INNedkova21/The_innovative_innovators");
+            else if (selectorPos.y > 500) gameState = 0;
+        }
+        else if (IsKeyPressed(KEY_ENTER) && gameState == 0) // selector
+        {
+            if (selectorPos.y < 500) {
+                gameState = 1;
+                start = clock();
+            }
+            else if (selectorPos.y < 650) {
+                gameState = 2;
+                selectorPos.y = 350;
+                currentBtn1 = buttonSelected;
+                currentBtn2 = buttonUnselected;
+            }
+            else if (selectorPos.y > 500) break;
+        }
+    }
+    CloseWindow();
+}
